@@ -7,6 +7,8 @@ set :repo_url, "git@github.com:Mohsen662/deploy_test.git"
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
+set :passenger_restart_with_touch, true
+
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, "/home/deploy/deploy_test"
 
